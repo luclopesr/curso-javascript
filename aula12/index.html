@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="dia">Dia da Semana</div>
+
+    <script>
+        var agora = new Date()
+        var diaSem = agora.getDay()
+        var dia = document.querySelector('div#dia')
+
+        switch (diaSem) {
+            case 0:
+                dia.innerHTML = 'Domingo'
+                break;
+
+            case 1:
+                dia.innerHTML = 'Segunda'
+                break;
+
+            case 2:
+                dia.innerHTML = 'Terça'
+                break;
+
+            case 3:
+                dia.innerHTML = 'Quarta'
+                break;
+
+            case 4:
+                dia.innerHTML = 'Quinta'
+                break;
+
+            case 5:
+                dia.innerHTML = 'Sexta'
+                break;
+
+            case 6:
+                dia.innerHTML = 'Sábado'
+                break;
+        
+            default:
+                break;
+        }
+    </script>
+</body>
+</html>
