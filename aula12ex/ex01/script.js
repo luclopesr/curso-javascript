@@ -27,4 +27,4 @@ function corrigirHorario(num) {
     return num
 }
 
-setInterval(carregar, 100)
+setInterval(carregar, 1000)
