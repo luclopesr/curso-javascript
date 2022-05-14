@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
-        <div>Testando...</div>
-        <div>Olá</div>
+        <form>
+            <div>
+                <label for="txtano">Ano de Nascimento:</label>
+                <input type="number" name="txtano" id="txtano" placeholder="aaaa" required >
+            </div>
+
+            <div>
+                <label>Sexo:</label>
+                <input type="radio" name="sex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sex" id="fem">
+                <label for="fem">Feminino</label>
+            </div>
+            <input type="button" value="Verificar" onclick="verificar()">
+        </form>
+        <div id="res">
+            Preencha os dador acima para ver o resultado!
+        </div>
     </section>
     <footer>
         <p>&copy; Lucas Lopes</p>
