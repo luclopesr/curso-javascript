@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(22, 192, 0);
+    font: normal 15pt Verdana;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 550px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #00000070;
+}
+
+div {
+    margin: 10px 0 10px 0;
+}
+
+select {
+    width: 150px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
